@@ -1,7 +1,9 @@
 import React from 'react';
-
+import Encabezado from './../components/tarjeta';
 const Home = (props) => {
     return (
+        <>
+        <Encabezado />
         <div className="container">
             <div className="row">
                 <div className="col-md-12 d-flex justify-content-center">
@@ -14,6 +16,7 @@ const Home = (props) => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
