@@ -46,5 +46,4 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
             }),
             new webpack.HotModuleReplacementPlugin()
         ]
-    };
-​
+    }
